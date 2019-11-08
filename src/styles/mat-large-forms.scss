@@ -1,0 +1,27 @@
+:host ::ng-deep {
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .large-gap mat-form-field {
+        margin-top: 30px;
+    }
+
+    .large-gap mat-slide-toggle {
+        margin-top: 30px;
+    }
+
+    mat-form-field {
+        width: 100%;
+    }
+
+    .dialog-description {
+        margin-bottom: 10px;
+    }
+
+    mat-checkbox {
+        display: inline-block;
+        height: 37px;
+    }
+}

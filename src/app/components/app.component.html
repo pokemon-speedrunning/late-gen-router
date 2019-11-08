@@ -6,7 +6,7 @@
     <mat-sidenav mode="side" opened [fixedInViewport]="true" [fixedTopGap]="64">
         <div class="nav-actions">
             <div>
-                <button mat-raised-button color="primary">
+                <button mat-raised-button color="primary" (click)="openRouteCreationDialog()">
                     <fa-icon [icon]="fa.plus"></fa-icon>
                     New
                 </button>

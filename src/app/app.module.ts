@@ -12,12 +12,14 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import {AppRoutingModule} from "./app-routing.module";
 import {AppComponent} from "./components/app.component";
 import {CreatePokeDialogComponent} from "./components/create-poke-dialog.component";
+import {RouteCreationDialogComponent} from "./components/route-creation-dialog.component";
 import {FontAwesomeService} from "./services/font-awesome.service";
 
 @NgModule({
     declarations: [
         AppComponent,
         CreatePokeDialogComponent,
+        RouteCreationDialogComponent,
     ],
     imports: [
         BrowserModule,
@@ -37,6 +39,7 @@ import {FontAwesomeService} from "./services/font-awesome.service";
     ],
     entryComponents: [
         CreatePokeDialogComponent,
+        RouteCreationDialogComponent,
     ],
     providers: [
         FontAwesomeService,
