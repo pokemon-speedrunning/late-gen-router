@@ -1,0 +1,30 @@
+<mat-toolbar color="primary">
+    Router
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav mode="side" opened [fixedInViewport]="true" [fixedTopGap]="64">
+        <div class="nav-actions">
+            <div>
+                <button mat-raised-button color="primary">
+                    <fa-icon [icon]="fa.plus"></fa-icon>
+                    New
+                </button>
+            </div>
+            <div>
+                <button mat-raised-button color="primary">
+                    <fa-icon [icon]="fa.folderOpen"></fa-icon>
+                    Open
+                </button>
+            </div>
+        </div>
+
+        <mat-divider></mat-divider>
+
+    </mat-sidenav>
+    <mat-sidenav-content>
+        Coucou<br>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+<router-outlet></router-outlet>

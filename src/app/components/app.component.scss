@@ -1,0 +1,22 @@
+mat-sidenav {
+    width: 280px;
+
+    .nav-actions {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+
+        > div {
+            width: 50%;
+            text-align: center;
+
+            button {
+                width: 80%;
+            }
+        }
+    }
+
+    mat-divider {
+        margin: 1em 0;
+    }
+}
