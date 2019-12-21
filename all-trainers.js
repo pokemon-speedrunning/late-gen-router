@@ -21,9 +21,10 @@ let experienceYields = {
     "Furfrou": 165,
     "Noibat": 49,
     "Litten": 64,
-    "Torrocat": 147,
+    "Torracat": 147,
     "Crabrawler": 68,
     "Wishiwashi": 61,
+    "Wishiwashi-School": 217,
     "Dewpider": 54,
     "Araquanid": 159,
     "Type: Null": 107,
@@ -85,6 +86,95 @@ let experienceYields = {
     "Munchlax": 78,
     "Bagon": 60,
     "Cutiefly": 61,
+    "Tauros": 172,
+    "Mudbray": 77,
+    "Lillipup": 55,
+    "Magby": 73,
+    "Sudowoodo": 144,
+    "Cubone": 64,
+    "Oricorio": 167,
+    "Salazzle": 168,
+    "Kadabra": 140,
+    "Bounsweet": 42,
+    "Trumbeak": 124,
+    "Miltank": 172,
+    "Archen": 71,
+    "Shieldon": 70,
+    "Rockruff": 56,
+    "Shiinotic": 142,
+    "Fomantis": 50,
+    "Lurantis": 168,
+    "Charjabug": 140,
+    "Goomy": 60,
+    "Sylveon": 184,
+    "Salandit": 64,
+    "Umbreon": 184,
+    "Jigglypuff": 95,
+    "Ledian": 137,
+    "Comfey": 170,
+    "Ariados": 140,
+    "Staryu": 68,
+    "Gyarados": 189,
+    "Hariyama": 166,
+    "Golbat": 159,
+    "Nosepass": 75,
+    "Boldore": 137,
+    "Raichu": 218,
+    "Leafeon": 184,
+    "Persian": 154,
+    "Cleffa": 44,
+    "Trubbish": 66,
+    "Muk": 175,
+    "Poliwhirl": 135,
+    "Steenee": 102,
+    "Skarmory": 163,
+    "Dugtrio": 149,
+    "Metang": 147,
+    "Vikavolt": 225,
+    "Clefairy": 113,
+    "Geodude": 60,
+    "Oranguru": 172,
+    "Passimian": 172,
+    "Absol": 163,
+    "Golisopod": 186,
+    "Weedle": 39,
+    "Pidgey": 50,
+    "NidoranF": 55,
+    "Herdier": 130,
+    "Fletchinder": 134,
+    "Stufful": 68,
+    "Pancham": 70,
+    "Krokorok": 123,
+    "Tirtouga": 71,
+    "Cranidos": 70,
+    "Porygon": 79,
+    "Magneton": 163,
+    "Alomomola": 165,
+    "Whiscash": 164,
+    "Sandygast": 64,
+    "Elekid": 72,
+    "Feebas": 40,
+    "Haunter": 142,
+    "Gengar": 225,
+    "Mimikyu": 167,
+    "Togedemaru": 152,
+    "Gabite": 144,
+    "Pyukumuku": 144,
+    "Sandshrew": 60,
+    "Vulpix": 60,
+    "Wigglytuff": 196,
+    "Tentacruel": 180,
+    "Slowbro": 172,
+    "Golduck": 175,
+    "Luvdisc": 116,
+    "Corsola": 144,
+    "Torkoal": 165,
+    "Seaking": 158,
+    "Sneasel": 86,
+    "Alakazam": 225,
+    "Mareanie": 61,
+    "Spinarak": 50,
+    "Wimpod": 46,
 };
 
 // {type: "kill", pokemon: "Grubbin", level: 6},
@@ -139,10 +229,200 @@ let popplio = [
     {type: "kill", pokemon: "Rattata", level: 14},      // 5, 8, 3, 4, 2,22
     {type: "kill", pokemon: "Cutiefly", level: 14},     // 5, 8, 3, 4, 2,23
     {type: "kill", pokemon: "Pikachu", level: 16},      // 5, 8, 3, 4, 2,25
-    {type: "kill", pokemon: "Torrocat", level: 17},     // 5, 8, 3, 4, 2,27
+    {type: "kill", pokemon: "Torracat", level: 17},     // 5, 8, 3, 4, 2,27
     {type: "kill", pokemon: "Carbink", level: 15},      // 5, 8, 4, 4, 3,27
     {type: "kill", pokemon: "Zubat", level: 17},        // 5, 8, 4, 4, 3,28
     {type: "kill", pokemon: "Type: Null", level: 18},   // 7, 8, 4, 4, 3,28
+    {type: "kill", pokemon: "Wishiwashi", level: 18},   // 9, 8, 4, 4, 3,28
+    {type: "kill", pokemon: "Wishiwashi-School", level: 20},   //11, 8, 4, 4, 3,28
+    {type: "kill", pokemon: "Sableye", level: 15},      //11, 9, 5, 4, 3,28
+    {type: "kill", pokemon: "Tauros", level: 15},       //11,10, 5, 4, 3,29
+    {type: "kill", pokemon: "Mudbray", level: 15},      //11,11, 5, 4, 3,29
+    {type: "kill", pokemon: "Lillipup", level: 14},     //11,12, 5, 4, 3,29
+    {type: "kill", pokemon: "Growlithe", level: 14},    //11,13, 5, 4, 3,29
+    {type: "kill", pokemon: "Magby", level: 15},        //11,13, 5, 4, 3,30
+    {type: "kill", pokemon: "Yungoos", level: 16},      //11,14, 5, 4, 3,30
+    {type: "kill", pokemon: "Sudowoodo", level: 17},    //11,14, 7, 4, 3,30
+    {type: "kill", pokemon: "Drowzee", level: 17},      //11,14, 7, 4, 4,30
+    {type: "kill", pokemon: "Cubone", level: 17},       //11,14, 8  4, 4,30
+    {type: "kill", pokemon: "Oricorio", level: 17},     //11,14, 8  6, 4,30
+    {type: "kill", pokemon: "Meowth", level: 19},       //11,14, 8  6, 4,31
+    {type: "kill", pokemon: "Marowak", level: 19},      //11,14,10, 6, 4,31
+    {type: "kill", pokemon: "Magmar", level: 19},       //11,14,10, 8, 4,31
+    {type: "kill", pokemon: "Salazzle", level: 22},     //11,14,10, 8, 4,33
+    {type: "kill", pokemon: "Kadabra", level: 21},      //11,14,10,10, 4,33
+    {type: "kill", pokemon: "Roggenrola", level: 18},   //11,14,11,10, 4,33
+    {type: "kill", pokemon: "Machop", level: 19},       //11,15,10,10, 4,33
+    {type: "kill", pokemon: "Eevee", level: 20},        //11,15,10,10, 5,33
+    {type: "kill", pokemon: "Bounsweet", level: 20},    //12,15,10,10, 5,33
+    {type: "kill", pokemon: "Trumbeak", level: 21},     //12,17,10,10, 5,33
+    {type: "kill", pokemon: "Miltank", level: 21},      //12,17,12,10, 5,33
+    {type: "kill", pokemon: "Archen", level: 20},       //12,18,12,10, 5,33
+    {type: "kill", pokemon: "Shieldon", level: 20},     //12,17,13,10, 5,33
+    {type: "kill", pokemon: "Rockruff", level: 20},     //12,18,13,10, 5,33
+    {type: "kill", pokemon: "Meowth", level: 20},       //12,18,13,10, 5,33
+    {type: "kill", pokemon: "Shiinotic", level: 22},    //12,18,13,10, 7,33
+    {type: "rare-candy"},
+    {type: "rare-candy"},
+    {type: "kill", pokemon: "Fomantis", level: 23},     //12,19,13,10, 7,33
+    {type: "kill", pokemon: "Fomantis", level: 23},     //12,20,13,10, 7,33
+    {type: "kill", pokemon: "Trumbeak", level: 22},     //12,24,13,10, 7,33
+    {type: "kill", pokemon: "Lurantis", level: 24},     //12,28,13,10, 7,33
+    {type: "kill", pokemon: "Charjabug", level: 20},    //12,28,15,10, 7,33
+    {type: "kill", pokemon: "Mudbray", level: 21},      //12,29,15,10, 7,33
+    {type: "kill", pokemon: "Goomy", level: 22},        //12,29,15,10, 8,33
+    {type: "kill", pokemon: "Sylveon", level: 23},      //12,29,15,10, 9,33
+    {type: "kill", pokemon: "Diglett", level: 22},      //12,29,15,10, 9,34
+    {type: "kill", pokemon: "Roggenrola", level: 21},   //12,29,16,10, 9,34
+    {type: "kill", pokemon: "Mudbray", level: 22},      //12,30,16,10, 9,34
+    {type: "kill", pokemon: "Machop", level: 22},       //12,31,16,10, 9,34
+    {type: "kill", pokemon: "Fomantis", level: 22},     //12,32,16,10, 9,34
+    {type: "kill", pokemon: "Salandit", level: 22},     //12,32,16,10, 9,35
+    {type: "kill", pokemon: "Hariyama", level: 23},     //14,37,16,10,15,36
+    {type: "kill", pokemon: "Growlithe", level: 24},    //14,33,16,10, 9,35
+    {type: "kill", pokemon: "Umbreon", level: 23},      //14,33,16,10,11,35
+    {type: "kill", pokemon: "Jigglypuff", level: 21},   //14,33,16,10,11,35
+    {type: "kill", pokemon: "Ledian", level: 22},       //14,33,16,10,13,35
+    {type: "kill", pokemon: "Comfey", level: 23},       //14,33,16,10,15,35
+    {type: "kill", pokemon: "Ariados", level: 23},      //14,35,16,10,15,35
+    {type: "kill", pokemon: "Staryu", level: 23},       //14,35,16,10,15,36
+    {type: "kill", pokemon: "Gyarados", level: 23},     //14,37,16,10,15,36
+    {type: "kill", pokemon: "Hariyama", level: 24},     //16,37,16,10,15,36
+    {type: "kill", pokemon: "Golbat", level: 25},       //16,37,16,10,15,38
+    {type: "kill", pokemon: "Salandit", level: 26},     //16,37,16,10,15,39
+    {type: "kill", pokemon: "Nosepass", level: 26},     //16,37,17,10,15,39
+    {type: "kill", pokemon: "Boldore", level: 26},      //16,38,18,10,15,39
+    {type: "kill", pokemon: "Lycanroc", level: 27},     //16,40,18,10,15,39
+    {type: "evolve"},
+    {type: "kill", pokemon: "Raichu", level: 28},       //16,40,18,10,15,42
+    {type: "kill", pokemon: "Leafeon", level: 28},      //16,40,20,10,15,42
+    {type: "kill", pokemon: "Torracat", level: 29},     //16,40,20,10,15,44
+    {type: "kill", pokemon: "Persian", level: 27},      //16,40,20,10,15,46
+    {type: "kill", pokemon: "Marowak", level: 26},      //16,40,22,10,15,44
+    {type: "kill", pokemon: "Cleffa", level: 26},       //16,40,22,10,16,44
+    {type: "kill", pokemon: "Raticate", level: 26},     //16,40,22,10,16,46
+    {type: "kill", pokemon: "Raichu", level: 27},       //16,40,22,10,16,48
+    {type: "kill", pokemon: "Trubbish", level: 26},     //16,40,22,10,16,49
+    {type: "kill", pokemon: "Trubbish", level: 27},     //16,40,22,10,16,50
+    {type: "kill", pokemon: "Muk", level: 27},          //17,41,22,10,16,50
+    {type: "kill", pokemon: "Grimer", level: 29},       //18,41,22,10,16,50
+    {type: "kill", pokemon: "Poliwhirl", level: 28},    //18,41,22,10,16,52
+    {type: "kill", pokemon: "Steenee", level: 27},      //18,41,22,10,16,54
+    {type: "kill", pokemon: "Growlithe", level: 28},    //18,42,22,10,16,54
+    {type: "kill", pokemon: "Golbat", level: 27},       //18,42,22,10,16,56
+    {type: "kill", pokemon: "Raticate", level: 27},     //18,42,22,10,16,58
+    {type: "kill", pokemon: "Skarmory", level: 29},     //18,42,24,10,16,58
+    {type: "kill", pokemon: "Metang", level: 29},       //18,42,26,10,16,58
+    {type: "kill", pokemon: "Dugtrio", level: 30},      //18,44,24,10,16,58
+    {type: "kill", pokemon: "Grubbin", level: 27},      //18,45,24,10,16,58
+    {type: "kill", pokemon: "Charjabug", level: 27},    //18,44,26,10,16,58
+    {type: "kill", pokemon: "Charjabug", level: 27},    //18,44,28,10,16,58
+    {type: "kill", pokemon: "Vikavolt", level: 29},     //18,44,28,13,16,58
+    {type: "kill", pokemon: "Clefairy", level: 28},     //20,44,28,13,16,58
+    {type: "kill", pokemon: "Boldore", level: 27},      //20,45,29,13,16,58
+    {type: "kill", pokemon: "Geodude", level: 28},      //20,45,30,13,16,58
+    {type: "kill", pokemon: "Passimian", level: 28},    //20,47,30,13,16,58
+    {type: "kill", pokemon: "Oranguru", level: 28},     //20,45,30,13,18,58
+    {type: "kill", pokemon: "Absol", level: 30},        //20,47,30,13,18,58
+    {type: "kill", pokemon: "Golisopod", level: 31},    //20,47,32,13,18,58
+    {type: "kill", pokemon: "Ariados", level: 30},      //20,49,32,13,18,58
+    {type: "kill", pokemon: "Caterpie", level: 29},     //21,49,32,13,18,58
+    {type: "kill", pokemon: "Weedle", level: 29},       //21,49,32,13,18,59
+    {type: "kill", pokemon: "Pidgey", level: 27},       //21,49,32,13,18,60
+    {type: "kill", pokemon: "NidoranF", level: 28},     //22,49,32,13,18,60
+    {type: "kill", pokemon: "Rattata", level: 27},      //22,49,32,13,18,61
+    {type: "kill", pokemon: "Ekans", level: 27},        //22,50,32,13,18,61
+    {type: "kill", pokemon: "Zubat", level: 28},        //22,50,32,13,18,62
+    {type: "kill", pokemon: "Pidgey", level: 28},       //22,50,32,13,18,63
+    {type: "kill", pokemon: "NidoranF", level: 28},     //23,50,32,13,18,63
+    {type: "kill", pokemon: "Mankey", level: 30},       //23,51,32,13,18,63
+    {type: "kill", pokemon: "Ekans", level: 30},        //23,52,32,13,18,63
+    {type: "kill", pokemon: "Zubat", level: 31},        //23,52,32,13,18,64
+    {type: "kill", pokemon: "Herdier", level: 27, skipLevel: true},      //23,54,32,13,18,64
+    {type: "kill", pokemon: "Fletchinder", level: 27},  //23,54,32,13,18,66
+    {type: "kill", pokemon: "Stufful", level: 26},      //23,55,32,13,18,66
+    {type: "kill", pokemon: "Hariyama", level: 28},     //25,55,32,13,18,66
+    {type: "kill", pokemon: "Pancham", level: 29, skipLevel: true},      //25,56,32,13,18,66
+    {type: "kill", pokemon: "Krokorok", level: 29},     //25,58,32,13,18,66
+    {type: "kill", pokemon: "Tirtouga", level: 30},     //25,58,33,13,18,66
+    {type: "kill", pokemon: "Cranidos", level: 30},     //25,59,33,13,18,66
+    {type: "kill", pokemon: "Porygon", level: 28},      //25,59,33,14,18,66
+    {type: "kill", pokemon: "Magneton", level: 29},     //25,59,33,16,18,66
+    {type: "kill", pokemon: "Alomomola", level: 30},    //27,59,33,16,18,66
+    {type: "kill", pokemon: "Whiscash", level: 29},     //29,59,33,16,18,66
+    {type: "kill", pokemon: "Sandygast", level: 30},    //29,59,34,16,18,66
+    {type: "kill", pokemon: "Elekid", level: 30},       //29,59,34,16,18,67
+    {type: "kill", pokemon: "Drowzee", level: 33},      //29,59,34,16,19,67
+    {type: "kill", pokemon: "Feebas", level: 30},       //29,59,34,16,19,68
+    {type: "kill", pokemon: "Gyarados", level: 31},     //29,61,34,16,19,68
+
+    {type: "kill", pokemon: "Togedemaru", level: 30},   //29,63,34,16,19,68
+    {type: "kill", pokemon: "Gabite", level: 31},       //29,65,34,16,19,68
+
+    {type: "kill", pokemon: "Gastly", level: 30},       //29,65,34,17,19,68
+    {type: "kill", pokemon: "Haunter", level: 30},      //29,65,34,19,19,68
+    {type: "kill", pokemon: "Gengar", level: 30},       //29,65,34,22,19,68
+    {type: "kill", pokemon: "Haunter", level: 27},      //29,65,34,26,19,68
+    {type: "kill", pokemon: "Mimikyu", level: 33},      //29,65,34,26,23,68
+    {type: "kill", pokemon: "Pyukumuku", level: 31},    //29,65,34,26,25,68
+    {type: "kill", pokemon: "Golbat", level: 34},       //29,65,34,26,25,70
+    {type: "kill", pokemon: "Salazzle", level: 35},     //29,65,34,26,25,72
+    {type: "kill", pokemon: "Sandshrew", level: 32},    //29,65,35,26,25,72
+    {type: "kill", pokemon: "Marowak", level: 33},      //29,65,37,26,25,72
+    {type: "kill", pokemon: "Vulpix", level: 34},       //29,65,37,26,25,73
+    {type: "kill", pokemon: "Haunter", level: 34},      //29,65,37,28,25,73
+    {type: "kill", pokemon: "Wigglytuff", level: 35},   //32,65,37,28,25,73
+    {type: "kill", pokemon: "Tentacruel", level: 35},   //32,65,37,28,27,73
+
+    {type: "kill", pokemon: "Luvdisc", level: 33},      //32,65,37,28,27,74
+    {type: "kill", pokemon: "Corsola", level: 33},      //32,65,38,28,28,74
+    {type: "kill", pokemon: "Alomomola", level: 33},    //34,65,38,28,28,74
+
+    {type: "kill", pokemon: "Slowbro", level: 33, skipLevel: true},      //32,65,40,28,28,74
+    {type: "kill", pokemon: "Golduck", level: 33},      //34,65,38,30,28,74
+
+    {type: "kill", pokemon: "Charjabug", level: 32},    //34,65,40,30,28,74
+    {type: "kill", pokemon: "Muk", level: 33},          //35,66,40,30,28,74
+    {type: "kill", pokemon: "Oricorio", level: 33},     //35,66,40,32,28,74
+    {type: "kill", pokemon: "Torkoal", level: 33},      //35,66,42,32,28,74
+    {type: "kill", pokemon: "Leafeon", level: 34},      //35,66,44,32,28,74
+    {type: "kill", pokemon: "Seaking", level: 33},      //35,68,44,32,28,74
+    {type: "kill", pokemon: "Sneasel", level: 33},      //35,68,44,32,28,75
+    {type: "kill", pokemon: "Komala", level: 34},       //35,70,44,32,28,75
+    {type: "kill", pokemon: "Hariyama", level: 34},     //37,70,44,32,28,75
+    {type: "kill", pokemon: "Alakazam", level: 34},     //37,70,44,35,28,75
+    {type: "kill", pokemon: "Golbat", level: 34},       //37,70,44,35,28,77
+    {type: "kill", pokemon: "Mareanie", level: 33},     //37,70,45,35,28,77
+    {type: "kill", pokemon: "Fomantis", level: 34},     //37,72,45,35,28,77
+    {type: "kill", pokemon: "Salandit", level: 33},     //37,72,44,35,28,78
+    {type: "kill", pokemon: "Rattata", level: 33},      //37,72,44,35,28,79
+    {type: "kill", pokemon: "Raticate", level: 34},     //37,72,44,35,28,81
+    {type: "kill", pokemon: "Haunter", level: 34, skipLevel: true},     //37,72,44,37,28,81
+    {type: "kill", pokemon: "Drowzee", level: 34},     //37,72,44,37,29,81
+    {type: "kill", pokemon: "Spinarak", level: 34},    //37,73,44,37,29,81
+    {type: "kill", pokemon: "Grimer", level: 34},      //38,73,44,37,29,81
+    {type: "kill", pokemon: "Raticate", level: 35, skipLevel: true},      //38,73,44,37,29,83
+    {type: "kill", pokemon: "Golbat", level: 35},      //38,73,44,37,29,85
+    {type: "kill", pokemon: "Fomantis", level: 34},    //38,74,44,37,29,85
+    {type: "kill", pokemon: "Salandit", level: 34},    //38,73,44,37,29,86
+    {type: "kill", pokemon: "Wimpod", level: 35},      //38,73,44,37,29,87
+    {type: "kill", pokemon: "Zubat", level: 34},       //38,73,44,37,29,88
+    {type: "kill", pokemon: "Gastly", level: 34},      //38,73,44,38,29,88
+    {type: "kill", pokemon: "Salandit", level: 35},    //38,73,44,38,29,89
+    {type: "kill", pokemon: "Mareanie", level: 35},    //38,73,45,38,29,89
+    {type: "kill", pokemon: "Haunter", level: 35},     //38,73,45,40,29,89
+    {type: "kill", pokemon: "Wimpod", level: 34},      //38,73,45,40,29,90
+    {type: "kill", pokemon: "Drowzee", level: 35},     //38,73,45,40,30,90
+    {type: "kill", pokemon: "Rattata", level: 35},     //38,73,45,40,30,91
+    {type: "kill", pokemon: "Raticate", level: 35},    //38,73,45,40,30,92
+    {type: "kill", pokemon: "Fomantis", level: 35},    //38,74,45,40,30,92
+    {type: "kill", pokemon: "Golbat", level: 35},      //38,74,45,40,30,94
+    {type: "kill", pokemon: "Golisopod", level: 37},   //38,74,47,40,30,94
+    {type: "kill", pokemon: "Ariados", level: 36},     //38,76,47,40,30,94
+
+
+
+
 ];
 
 function computeExperienceForLevel(level, curve) {
@@ -186,7 +466,6 @@ function getExperienceForKill(foeName, foeLevel, level, luckyEgg, affection, rot
     if (typeof expYield === "undefined") {
         throw new Error("Unknown Pokémon: " + foeName);
     }
-
 
     let x = foeLevel + foeLevel + 10;
     let y = foeLevel + level + 10;
@@ -266,9 +545,11 @@ function processActions(actions) {
 
                 currentExp+= receivedExp;
 
-                while (currentLevel < 100 && computeExperienceForLevel(currentLevel + 1, curve) <= currentExp) {
-                    ++currentLevel;
-                    console.log(`[LEVELUP] Now level ${currentLevel}`);
+                if (!action.skipLevel) {
+                    while (currentLevel < 100 && computeExperienceForLevel(currentLevel + 1, curve) <= currentExp) {
+                        ++currentLevel;
+                        console.log(`[LEVELUP] Now level ${currentLevel}`);
+                    }
                 }
                 break;
             case "evolve":
